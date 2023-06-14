@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/proyectoprueba
+    username: root
+    password: root44395222
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNaming.Strategy
+    properties:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+
+
